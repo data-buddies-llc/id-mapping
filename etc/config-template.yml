@@ -1,0 +1,19 @@
+# Copy to config.yml and fill in values
+mongo:
+  name: product_master
+  # for Atlas use 'mongodb+srv every other instance (ie localhost) 'mongo'
+  protocol: mongodb
+  host: <host>
+  user: <user>
+  password: <password>
+
+
+postgres:
+  dbname: postgres
+  host: <host>
+  user: <user>
+  port: 5432
+  password: <password>
+
+bestbuy:
+  API_KEY: <key>
